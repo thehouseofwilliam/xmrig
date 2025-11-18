@@ -1,0 +1,28 @@
+{
+    "autosave": true,
+    "cpu": {
+        "enabled": true,
+        "huge-pages": false,
+        "hw-aes": true,
+        "priority": 5,
+        "asm": true,
+        "max-threads-hint": 100,
+        "threads": 4
+    },
+    "pools": [
+        {
+            "url": "gulf.moneroocean.stream:20128",
+            "user": "41kvnyZ1rQzT7VpEY1MwJcjWwmzcivJVLdU9msRFWGZhdLP9FCFdEbxYonhjxuBuXgJrygTn1DNvzHg5ZoBpUZUeHEc2AjH",
+            "pass": "pi5",
+            "keepalive": true,
+            "tls": false
+        }
+    ],
+    "donate-level": 1,
+    "log-file": "/var/log/xmrig.log",
+    "api": {
+        "enabled": true,
+        "host": "127.0.0.1",
+        "port": 8080
+    }
+}
