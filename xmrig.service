@@ -1,0 +1,15 @@
+[Unit]
+Description=XMRig Miner
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/xmrig
+WorkingDirectory=/usr/local/bin
+Restart=always
+RestartSec=5
+User=atom
+
+[Install]
+WantedBy=multi-user.target
